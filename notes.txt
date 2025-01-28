@@ -11,3 +11,11 @@
 npm i -D git-commit-msg-linter
 npm i -D typescript @types/node
 -----------------------------------------------------------------------------------------------
+npm install --save-dev 
+eslint@6 ok
+eslint-plugin-standard@4 ok
+eslint-plugin-promise@4 ok
+eslint-plugin-import@2 Ok
+eslint-plugin-node@9 Ok
+@typescript-eslint/eslint-plugin@2 ok
+eslint-config-standard-with-typescript
