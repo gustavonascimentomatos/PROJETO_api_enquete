@@ -6,6 +6,8 @@
 	c = !git add --all && git commit -m
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 -----------------------------------------------------------------------------------------------
--- Adicionar biblioteca p/ padronizar os commits ----------------------------------------------
+
+-- Dependencias -------------------------------------------------------------------------------
 npm i -D git-commit-msg-linter
+npm i -D typescript @types/node
 -----------------------------------------------------------------------------------------------
