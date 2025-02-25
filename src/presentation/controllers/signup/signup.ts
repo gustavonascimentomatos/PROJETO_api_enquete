@@ -1,12 +1,12 @@
-import { HttpResponse, HttpRequest, Controller, EmailValidar, AddAccount } from './signup-protocols'
+import { HttpResponse, HttpRequest, Controller, EmailValidator, AddAccount } from './signup-protocols'
 import { MissingParamError, InvalidParamError } from '../../errors'
 import { badRequest, serverError, ok } from '../../helpres/http-helper'
 
 export class SignUpController implements Controller {
-    private readonly emailValidator: EmailValidar
+    private readonly emailValidator: EmailValidator
     private readonly addAccount: AddAccount
 
-    constructor(emailValidator: EmailValidar, addAccount: AddAccount) {
+    constructor(emailValidator: EmailValidator, addAccount: AddAccount) {
         this.emailValidator = emailValidator
         this.addAccount = addAccount
     }
